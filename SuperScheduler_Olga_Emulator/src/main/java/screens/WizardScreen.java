@@ -1,10 +1,12 @@
 package screens;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.FindBy;
@@ -49,7 +51,7 @@ public class WizardScreen extends BaseScreen {
     public HomeScreen setDetails(String currencyCountry, String wageRate) {
         new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(skipWizard));
         chooseCurrency(currencyCountry);
-        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(wageInput));
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(wageInput));
         wageInput.click();
         type(setWage, wageRate);
         clickNextBtn.click();
@@ -62,25 +64,30 @@ public class WizardScreen extends BaseScreen {
         int yFrom = (int) (screenSize.getHeight() * 0.2);
         int yTo = (int) (screenSize.getHeight() * 0.8);
         currencyArrow.click();
-        if (countryOfCurrency != null) {
-            for (MobileElement el : currencyTitleList) {
-                while (!currencyTitle.getText().equals(countryOfCurrency)) {
-                    TouchAction<?> action = new TouchAction<>(driver);
-                    action.press(PointOption.point(x, yTo)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
-                            .moveTo(PointOption.point(x, yFrom)).release().perform();
-                    pause(2);
+        {
+            if (countryOfCurrency != null) {
+                for (MobileElement el : currencyTitleList) {
+                    while (!currencyTitle.getText().equals(countryOfCurrency)) {
+                        TouchAction<?> action = new TouchAction<>(driver);
+                        action.press(PointOption.point(x, yTo)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
+                                .moveTo(PointOption.point(x, yFrom)).release().perform();
+                        pause(2);
+                    }
+                    currencyTitle.click();
                 }
-                currencyTitle.click();
             }
         }
-//                if (currencyTitle.getText().equals(countryOfCurrency)) {
-//                    currencyTitle.click();
-//                } else {
-//                    TouchAction<?> action = new TouchAction<>(driver);
-//                    action.press(PointOption.point(x, yTo)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
-//                            .moveTo(PointOption.point(x, yFrom)).release().perform();
-//                }
-//                pause(1);
-//             }
+    }
+    public void scrollByID(String Id, int index) {
+
+        try {
+
+            driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()" +
+                    ".scrollable(true).instance(0)).scrollIntoView(new UiSelector()" +
+                    ".resourceId(\""+Id+"\").instance("+index+"));"));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
