@@ -75,5 +75,4 @@ public class RegistrationTests extends Configuration {
 
     }
 
-
 }
