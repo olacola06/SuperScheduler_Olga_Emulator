@@ -53,7 +53,6 @@ public class RegistrationTests extends Configuration {
         logger.info("Put attention on the appeared message!!! 'Check . in email' ");
 
     }
-
     @Test
     public void registrationWrongPassLessSymbols() {
 //        boolean res = new LoginScreen(driver).fillEmail("all@gmail.com").fillPassword("as12345")
@@ -66,12 +65,12 @@ public class RegistrationTests extends Configuration {
     }
     @Test
     public void registrationNotSkip(){
-        String currencyCountry = "Aruban florin";
+        String currencyCountry = "Danish krone";
         String wageRate = "1200";
         User user = User.builder().email("Dudy"+i+"@gmail.com").password("Oo12345@").build();
 
         new LoginScreen(driver).complexRegist(user).setDetails(currencyCountry,wageRate)
-                .isPlusBtnPresentAssert();
+                .isPlusBtnPresentAssert().openMenu().logout();
 
     }
 

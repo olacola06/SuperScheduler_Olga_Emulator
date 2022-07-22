@@ -1,0 +1,151 @@
+18:52:15  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:15  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:15  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:16  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:16  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:16  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:16  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:17  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:17  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:17  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:17  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:18  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:18  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:18  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:18  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+18:52:19  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:19  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:20  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:20  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:20  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:20  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:21  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:21  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:52:22  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input'] was found
+18:52:23  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:52:23  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input'] was found
+18:52:23  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:52:24  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input'] was found
+18:52:24  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:52:25  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input'] was found
+18:52:27  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+18:52:28  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn'] was found
+18:52:28  INFO  manager.Configuration - Start test->>deleteExistEventWithDetails
+18:52:28  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+18:52:29  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+18:52:29  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+18:52:30  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main'] was found
+18:52:30  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+18:52:32  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main'] was found
+18:52:32  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_container_main']
+18:52:33  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_container_main'] was found
+18:52:33  INFO  screens.BaseScreen - 'Started with Amount of events = ' 5
+18:52:33  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_topic_txt']
+18:52:35  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_topic_txt'] was found
+18:52:35  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']
+18:52:36  INFO  manager.MyListener - There is a problem->>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']}
+18:52:36  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']}
+18:52:36  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu'] was found
+18:52:37  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']
+18:52:37  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu'] was found
+18:52:37  INFO  manager.MyListener - start search element by locator:->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']
+18:52:37  INFO  manager.MyListener - element with locator->>By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/delete_menu'] was found
+18:52:40  INFO  manager.MyListener - There is a problem->>Cached elements 'By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_topic_txt']' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+18:52:40  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_topic_txt']' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: UiAutomator2, deviceName: Nexus5, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e1df7e1d-dfe1-4ee2-b4d1-e89a9e1f1c33
+18:52:40  INFO  manager.Configuration - Test  deleteExistEventWithDetails finished

@@ -84,10 +84,10 @@ public class HomeScreen extends BaseScreen{
                 el.click();
                 new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(deleteIcon));
                 deleteIcon.click();
-                pause(1);
-                refreshScreen();
+
             }
             pause(3);
+            refreshScreen();
         }
         int finishAmount = events.size();
         logger.info("'Finished with Amount of events = ' " + finishAmount);
@@ -114,11 +114,12 @@ public class HomeScreen extends BaseScreen{
     private void refreshScreen() {
         Dimension screenSizes = driver.manage().window().getSize();
         int x = screenSizes.getWidth() / 2;
-        int yFrom = screenSizes.getHeight()/2;
-        int yTo = (int) (screenSizes.getHeight() * 0.85);
-        TouchAction action = new TouchAction(driver);
-        action.press(point(x, yFrom)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
-                .moveTo(point(x, yTo)).release().perform();
+        int yFrom = (int)(screenSizes.getHeight()/2);
+        int yTo = (int) (screenSizes.getHeight() * 0.9);
+        TouchAction<?> action = new TouchAction<>(driver);
+        action.press(PointOption.point(x, yFrom)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+                .moveTo(PointOption.point(x, yTo)).release().perform();
+
 
     }
 

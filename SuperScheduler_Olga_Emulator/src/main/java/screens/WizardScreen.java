@@ -31,10 +31,12 @@ public class WizardScreen extends BaseScreen {
     MobileElement currencyTitle;
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/currency_row_title']")
     List<MobileElement> currencyTitleList;
-    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wage_dialog_input']")
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_wage_res']")
     MobileElement wageInput;
-    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wage_dialog_ok_btn']")
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wage_dialog_input']")
     MobileElement setWage;
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wage_dialog_ok_btn']")
+    MobileElement wageOkBtn;
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_next']")
     MobileElement clickNextBtn;
 
@@ -50,44 +52,44 @@ public class WizardScreen extends BaseScreen {
 
     public HomeScreen setDetails(String currencyCountry, String wageRate) {
         new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(skipWizard));
+        setWageRate(wageRate);
         chooseCurrency(currencyCountry);
-        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(wageInput));
-        wageInput.click();
-        type(setWage, wageRate);
         clickNextBtn.click();
         return new HomeScreen(driver);
+    }
+
+    private void setWageRate(String wageRate) {
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(wageInput));
+        wageSetArrow.click();
+        type(setWage, wageRate);
+        wageOkBtn.click();
     }
 
     private void chooseCurrency(String countryOfCurrency) {
         Dimension screenSize = driver.manage().window().getSize();
         int x = screenSize.getWidth() / 2;
-        int yFrom = (int) (screenSize.getHeight() * 0.2);
-        int yTo = (int) (screenSize.getHeight() * 0.8);
+        int yFrom = (int) (screenSize.getHeight() * 0.8);
+        int yTo = (int) (screenSize.getHeight() * 0.1);
         currencyArrow.click();
-        {
-            if (countryOfCurrency != null) {
-                for (MobileElement el : currencyTitleList) {
-                    while (!currencyTitle.getText().equals(countryOfCurrency)) {
-                        TouchAction<?> action = new TouchAction<>(driver);
-                        action.press(PointOption.point(x, yTo)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
-                                .moveTo(PointOption.point(x, yFrom)).release().perform();
-                        pause(2);
+        if (countryOfCurrency != null) {
+            boolean flag = false;
+            int i = 20;
+            do {
+               for (MobileElement e : currencyTitleList) {
+                    if (e.getText().equals(countryOfCurrency)) {
+                       pause(5);
+                        e.click();
+                        flag = true;
+                        break;
                     }
-                    currencyTitle.click();
                 }
+                TouchAction<?> action = new TouchAction<>(driver);
+                action.press(PointOption.point(x, yFrom)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+                        .moveTo(PointOption.point(x,yTo)).release().perform();
+                i--;
             }
-        }
-    }
-    public void scrollByID(String Id, int index) {
+            while (!flag || i == 1);
 
-        try {
-
-            driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()" +
-                    ".scrollable(true).instance(0)).scrollIntoView(new UiSelector()" +
-                    ".resourceId(\""+Id+"\").instance("+index+"));"));
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 }
