@@ -17,7 +17,7 @@ public class CreateNewEventTests extends Configuration {
                 .email("olla@gmail.com").password("Cd12345$").build());
     }
 
-    @Test(invocationCount = 2)
+    @Test(invocationCount = 1)
     public void addNewEventSuccess(){
         Event event = Event.builder().title("Real One").type("Full-day").breaks(3)
                 .wage(50).build();

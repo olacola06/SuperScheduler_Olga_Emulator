@@ -77,18 +77,23 @@ public class HomeScreen extends BaseScreen{
 
     public HomeScreen deleteEventDetails(String details) {
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(plusButton));
-        int startAmount = events.size();
+        int startAmount = events.size(),i=0;
         logger.info("'Started with Amount of events = ' " + startAmount);
-        for (MobileElement el : titleTextList) {
-            if (el.getText().equals(details)) {
-                el.click();
-                new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(deleteIcon));
-                deleteIcon.click();
 
-            }
-            pause(3);
+        do {
+            for (MobileElement el : titleTextList) {
+                if (el.getText().equals(details)) {
+                    el.click();
+                    new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(deleteIcon));
+                    deleteIcon.click();
+                    refreshScreen();
+                }
+                i++;
+           }
             refreshScreen();
+            pause(2);
         }
+        while(i<startAmount);
         int finishAmount = events.size();
         logger.info("'Finished with Amount of events = ' " + finishAmount);
         Assert.assertTrue(checkIfEventDeleted(startAmount, finishAmount));
@@ -97,11 +102,14 @@ public class HomeScreen extends BaseScreen{
     public HomeScreen deleteAllContacts(){
         int startAmountContacts = events.size();
         logger.info("Total contacts to be deleted =  "+events.size());
-        for(int i=0;i<startAmountContacts;i++){
-            eventTextBox.click();
-            deleteIcon.click();
-            pause(1);
-            refreshScreen();
+        for(int i=0;i<startAmountContacts;i++) {
+
+                for (MobileElement e : events) {
+                e.click();
+                deleteIcon.click();
+                pause(1);
+                refreshScreen();
+            }
         }
         pause(2);
         int finishAmountContacts = events.size();
@@ -117,7 +125,7 @@ public class HomeScreen extends BaseScreen{
         int yFrom = (int)(screenSizes.getHeight()/2);
         int yTo = (int) (screenSizes.getHeight() * 0.9);
         TouchAction<?> action = new TouchAction<>(driver);
-        action.press(PointOption.point(x, yFrom)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+        action.press(PointOption.point(x, yFrom)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
                 .moveTo(PointOption.point(x, yTo)).release().perform();
 
 

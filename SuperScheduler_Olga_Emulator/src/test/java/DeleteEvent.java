@@ -23,7 +23,7 @@ public class DeleteEvent extends Configuration {
     }
     @Test(enabled = true)
     public void deleteExistEventWithDetails(){
-        new HomeScreen(driver).deleteEventDetails("Low");
+        new HomeScreen(driver).deleteEventDetails("Next day");
 
     }
     @Test
